@@ -1,0 +1,102 @@
+{
+  "menus": [
+    {
+      "id": 1,
+      "text": "Home",
+      "link": "/",
+      "dropdown": []
+    },
+    {
+      "id": 2,
+      "text": "Portfolio",
+      "link": "/portfolio",
+      "dropdown": [
+        {
+          "id": 2.1,
+          "text": "Portfolio",
+          "link": "/Portfolio"
+        },
+        {
+          "id": 2.2,
+          "text": "Portfolio Details",
+          "link": "/single-portfolio"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "text": "Shop",
+      "link": "/shop",
+      "dropdown": [],
+      "megaMenus": [
+        {
+          "id": 3.1,
+          "megaMenuTitle": "shop layout",
+          "link": "/shop-layout",
+          "megamenuItems": [
+            {
+              "id": 3.21,
+              "text": "Shop 1",
+              "link": "/shop"
+            },
+            {
+              "id": 3.22,
+              "text": "Shop 2",
+              "link": "/shop"
+            },
+            {
+              "id": 3.23,
+              "text": "Shop 3",
+              "link": "/shop"
+            }
+          ]
+        },
+        {
+          "id": 3.2,
+          "megaMenuTitle": "Product Details Layout",
+          "link": "/product-layout",
+          "megamenuItems": [
+            {
+              "id": 3.232,
+              "text": "Product Layout 1",
+              "link": "/shop"
+            },
+            {
+              "id": 3.233,
+              "text": "Product Layout 2",
+              "link": "/shop"
+            },
+            {
+              "id": 3.2343,
+              "text": "Product Layout 3",
+              "link": "/shop"
+            },
+            {
+              "id": 3.5343,
+              "text": "Product Layout 4",
+              "link": "/shop"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "text": "Blog",
+      "link": "/blog",
+      "dropdown": []
+    },
+    {
+      "id": 5,
+      "text": "Pages",
+      "link": "/pages",
+      "dropdown": []
+    },
+    {
+      "id": 6,
+      "text": "Contact",
+      "link": "/contact",
+      "dropdown": []
+    }
+  ]
+}
