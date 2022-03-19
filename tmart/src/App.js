@@ -1,5 +1,11 @@
+import Home from "./pages/Home";
+
 function App() {
-  return <div className="App">Tmart App</div>;
+  return (
+    <div className="wrapper fixed__footer">
+      <Home />
+    </div>
+  );
 }
 
 export default App;
