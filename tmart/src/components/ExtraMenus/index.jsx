@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const ExtraMenus = ({ setToggleSearch, setToggleCartMenu, setIsToggleOffsetMenu }) => {
   return (
     <div className="col-md-2 col-sm-4 col-xs-3">
@@ -6,9 +8,9 @@ const ExtraMenus = ({ setToggleSearch, setToggleCartMenu, setIsToggleOffsetMenu 
           <span className="ti-search" onClick={() => setToggleSearch(true)} />
         </li>
         <li>
-          <a href="login-register.html">
+          <Link to="login-register">
             <span className="ti-user"></span>
-          </a>
+          </Link>
         </li>
 
         <li className="cart__menu">
